@@ -1,0 +1,3 @@
+name: Johnnie Walker
+age: 12
+profession: Friday friend
