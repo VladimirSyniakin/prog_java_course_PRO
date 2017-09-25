@@ -1,0 +1,16 @@
+{
+  "name": "Vladimir",
+  "surname": "Syniakin",
+  "phones": [
+    "000-000-00-00"
+  ],
+  "sites": [
+    "www.xxx.com",
+    "www.yyy.com"
+  ],
+  "address": {
+    "country": "UA",
+    "city": "Kiev",
+    "street": "Shevchenko"
+  }
+}
