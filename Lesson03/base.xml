@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<base>
+    <someQuestions>
+        <entry>
+            <key>0</key>
+            <value>
+                <question>Как будет на зулуском языке слово: привет?</question>
+                <answers>
+                    <entry>
+                        <key>0</key>
+                        <value>
+                            <answer>Szia</answer>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>1</key>
+                        <value>
+                            <answer>Pozdravljeni</answer>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>2</key>
+                        <value>
+                            <answer>Sawubona</answer>
+                        </value>
+                    </entry>
+                </answers>
+            </value>
+        </entry>
+        <entry>
+            <key>1</key>
+            <value>
+                <question>Сколько нужно часов, что бы сварить страусиное яйцо в крутую?</question>
+                <answers>
+                    <entry>
+                        <key>0</key>
+                        <value>
+                            <answer>3 часа</answer>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>1</key>
+                        <value>
+                            <answer>4 часа</answer>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>2</key>
+                        <value>
+                            <answer>менее 1 часа</answer>
+                        </value>
+                    </entry>
+                </answers>
+            </value>
+        </entry>
+        <entry>
+            <key>2</key>
+            <value>
+                <question>Какой международный телефонный код Антарктиды?</question>
+                <answers>
+                    <entry>
+                        <key>0</key>
+                        <value>
+                            <answer>672</answer>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>1</key>
+                        <value>
+                            <answer>747</answer>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>2</key>
+                        <value>
+                            <answer>458</answer>
+                        </value>
+                    </entry>
+                </answers>
+            </value>
+        </entry>
+    </someQuestions>
+    <user>
+        <login>1</login>
+        <password>1</password>
+        <userStatistic>
+            <answers>
+                <item>
+                    <answer>
+                        <answer>менее 1 часа</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Sawubona</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>672</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>4 часа</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>458</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Szia</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>3 часа</answer>
+                    </answer>
+                    <value>2</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>747</answer>
+                    </answer>
+                    <value>2</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Pozdravljeni</answer>
+                    </answer>
+                    <value>2</value>
+                </item>
+            </answers>
+            <someQuestions>
+                <entry>
+                    <key>0</key>
+                    <value>
+                        <question>Как будет на зулуском языке слово: привет?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>Szia</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>Pozdravljeni</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>Sawubona</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+                <entry>
+                    <key>1</key>
+                    <value>
+                        <question>Сколько нужно часов, что бы сварить страусиное яйцо в крутую?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>3 часа</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>4 часа</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>менее 1 часа</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+                <entry>
+                    <key>2</key>
+                    <value>
+                        <question>Какой международный телефонный код Антарктиды?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>672</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>747</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>458</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+            </someQuestions>
+        </userStatistic>
+    </user>
+    <user>
+        <login>2</login>
+        <password>2</password>
+        <userStatistic>
+            <answers>
+                <item>
+                    <answer>
+                        <answer>менее 1 часа</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Sawubona</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>672</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>4 часа</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>458</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Szia</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>3 часа</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>747</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Pozdravljeni</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+            </answers>
+            <someQuestions>
+                <entry>
+                    <key>0</key>
+                    <value>
+                        <question>Как будет на зулуском языке слово: привет?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>Szia</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>Pozdravljeni</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>Sawubona</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+                <entry>
+                    <key>1</key>
+                    <value>
+                        <question>Сколько нужно часов, что бы сварить страусиное яйцо в крутую?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>3 часа</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>4 часа</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>менее 1 часа</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+                <entry>
+                    <key>2</key>
+                    <value>
+                        <question>Какой международный телефонный код Антарктиды?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>672</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>747</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>458</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+            </someQuestions>
+        </userStatistic>
+    </user>
+    <user>
+        <login>3</login>
+        <password>3</password>
+        <userStatistic>
+            <answers>
+                <item>
+                    <answer>
+                        <answer>менее 1 часа</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Sawubona</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>672</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>4 часа</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>458</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Szia</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>3 часа</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>747</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Pozdravljeni</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+            </answers>
+            <someQuestions>
+                <entry>
+                    <key>0</key>
+                    <value>
+                        <question>Как будет на зулуском языке слово: привет?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>Szia</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>Pozdravljeni</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>Sawubona</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+                <entry>
+                    <key>1</key>
+                    <value>
+                        <question>Сколько нужно часов, что бы сварить страусиное яйцо в крутую?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>3 часа</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>4 часа</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>менее 1 часа</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+                <entry>
+                    <key>2</key>
+                    <value>
+                        <question>Какой международный телефонный код Антарктиды?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>672</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>747</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>458</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+            </someQuestions>
+        </userStatistic>
+    </user>
+    <user>
+        <login>admin</login>
+        <password>admin</password>
+        <userStatistic>
+            <answers>
+                <item>
+                    <answer>
+                        <answer>менее 1 часа</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Sawubona</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>672</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>4 часа</answer>
+                    </answer>
+                    <value>2</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>458</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Szia</answer>
+                    </answer>
+                    <value>1</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>3 часа</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>747</answer>
+                    </answer>
+                    <value>2</value>
+                </item>
+                <item>
+                    <answer>
+                        <answer>Pozdravljeni</answer>
+                    </answer>
+                    <value>0</value>
+                </item>
+            </answers>
+            <someQuestions>
+                <entry>
+                    <key>0</key>
+                    <value>
+                        <question>Как будет на зулуском языке слово: привет?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>Szia</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>Pozdravljeni</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>Sawubona</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+                <entry>
+                    <key>1</key>
+                    <value>
+                        <question>Сколько нужно часов, что бы сварить страусиное яйцо в крутую?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>3 часа</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>4 часа</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>менее 1 часа</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+                <entry>
+                    <key>2</key>
+                    <value>
+                        <question>Какой международный телефонный код Антарктиды?</question>
+                        <answers>
+                            <entry>
+<key>0</key>
+<value>
+    <answer>672</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>1</key>
+<value>
+    <answer>747</answer>
+</value>
+                            </entry>
+                            <entry>
+<key>2</key>
+<value>
+    <answer>458</answer>
+</value>
+                            </entry>
+                        </answers>
+                    </value>
+                </entry>
+            </someQuestions>
+        </userStatistic>
+    </user>
+    <statistic>
+        <answers>
+            <item>
+                <answer>
+                    <answer>менее 1 часа</answer>
+                </answer>
+                <value>1</value>
+            </item>
+            <item>
+                <answer>
+                    <answer>Sawubona</answer>
+                </answer>
+                <value>2</value>
+            </item>
+            <item>
+                <answer>
+                    <answer>672</answer>
+                </answer>
+                <value>2</value>
+            </item>
+            <item>
+                <answer>
+                    <answer>4 часа</answer>
+                </answer>
+                <value>4</value>
+            </item>
+            <item>
+                <answer>
+                    <answer>458</answer>
+                </answer>
+                <value>0</value>
+            </item>
+            <item>
+                <answer>
+                    <answer>Szia</answer>
+                </answer>
+                <value>2</value>
+            </item>
+            <item>
+                <answer>
+                    <answer>3 часа</answer>
+                </answer>
+                <value>2</value>
+            </item>
+            <item>
+                <answer>
+                    <answer>747</answer>
+                </answer>
+                <value>5</value>
+            </item>
+            <item>
+                <answer>
+                    <answer>Pozdravljeni</answer>
+                </answer>
+                <value>3</value>
+            </item>
+        </answers>
+        <someQuestions>
+            <entry>
+                <key>0</key>
+                <value>
+                    <question>Как будет на зулуском языке слово: привет?</question>
+                    <answers>
+                        <entry>
+                            <key>0</key>
+                            <value>
+<answer>Szia</answer>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>1</key>
+                            <value>
+<answer>Pozdravljeni</answer>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>2</key>
+                            <value>
+<answer>Sawubona</answer>
+                            </value>
+                        </entry>
+                    </answers>
+                </value>
+            </entry>
+            <entry>
+                <key>1</key>
+                <value>
+                    <question>Сколько нужно часов, что бы сварить страусиное яйцо в крутую?</question>
+                    <answers>
+                        <entry>
+                            <key>0</key>
+                            <value>
+<answer>3 часа</answer>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>1</key>
+                            <value>
+<answer>4 часа</answer>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>2</key>
+                            <value>
+<answer>менее 1 часа</answer>
+                            </value>
+                        </entry>
+                    </answers>
+                </value>
+            </entry>
+            <entry>
+                <key>2</key>
+                <value>
+                    <question>Какой международный телефонный код Антарктиды?</question>
+                    <answers>
+                        <entry>
+                            <key>0</key>
+                            <value>
+<answer>672</answer>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>1</key>
+                            <value>
+<answer>747</answer>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>2</key>
+                            <value>
+<answer>458</answer>
+                            </value>
+                        </entry>
+                    </answers>
+                </value>
+            </entry>
+        </someQuestions>
+    </statistic>
+</base>
