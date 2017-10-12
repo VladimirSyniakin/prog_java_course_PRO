@@ -1,6 +1,6 @@
 package com.gmail.vsyniakin;
 
-import com.gmail.vsyniakin.dao.TablesProductClientOrderDAO;
+import com.gmail.vsyniakin.dbconnect.TablesProductClientOrder;
 
 import java.io.BufferedReader;
 import java.sql.Connection;
@@ -16,23 +16,23 @@ public class ProductClientOrderMenu {
                 if (actionInt >= 0 && actionInt <= 4) {
                     switch (input) {
                         case "0":
-                            TablesProductClientOrderDAO.createTableApartment(connection);
+                            TablesProductClientOrder.createTableApartment(connection);
                             selectAction(connection,bfRd);
                             break;
                         case "1":
-                            TablesProductClientOrderDAO.addProduct(connection, addProductData(bfRd));
+                            TablesProductClientOrder.addProduct(connection, addProductData(bfRd));
                             selectAction(connection,bfRd);
                             break;
                         case "2":
-                            TablesProductClientOrderDAO.addClient(connection, addClientData(bfRd));
+                            TablesProductClientOrder.addClient(connection, addClientData(bfRd));
                             selectAction(connection,bfRd);
                             break;
                         case "3":
-                            TablesProductClientOrderDAO.addOrder(connection, addOrderData(connection,bfRd));
+                            TablesProductClientOrder.addOrder(connection, addOrderData(connection,bfRd));
                             selectAction(connection,bfRd);
                             break;
                         case "4":
-                            TablesProductClientOrderDAO.selectOrders(connection);
+                            TablesProductClientOrder.selectOrders(connection);
                             selectAction(connection,bfRd);
                             break;
                     }
@@ -92,12 +92,12 @@ public class ProductClientOrderMenu {
 
         System.out.println("Enter name client:");
         String client = Main.inputSystem(bfRd);
-        int idClient = TablesProductClientOrderDAO.selectId(connection, client, CLIENT);
+        int idClient = TablesProductClientOrder.selectId(connection, client, CLIENT);
 
         System.out.println("Enter name product:");
         String product = Main.inputSystem(bfRd);
-        int idProduct = TablesProductClientOrderDAO.selectId(connection, product, PRODUCT);
-        int price = TablesProductClientOrderDAO.selectId(connection, product, PRICE);
+        int idProduct = TablesProductClientOrder.selectId(connection, product, PRODUCT);
+        int price = TablesProductClientOrder.selectId(connection, product, PRICE);
 
         System.out.println("Enter quantity of product:");
         int quantity = -1;

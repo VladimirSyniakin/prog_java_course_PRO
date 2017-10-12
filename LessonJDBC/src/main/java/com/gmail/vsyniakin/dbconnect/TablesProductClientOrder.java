@@ -1,8 +1,8 @@
-package com.gmail.vsyniakin.dao;
+package com.gmail.vsyniakin.dbconnect;
 
 import java.sql.*;
 
-public class TablesProductClientOrderDAO {
+public class TablesProductClientOrder {
 
     public static void createTableApartment(Connection connection) {
         try (Statement st = connection.createStatement()) {

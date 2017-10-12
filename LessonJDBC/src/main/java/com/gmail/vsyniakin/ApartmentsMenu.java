@@ -1,6 +1,6 @@
 package com.gmail.vsyniakin;
 
-import com.gmail.vsyniakin.dao.TableApartmentDAO;
+import com.gmail.vsyniakin.dbconnect.TableApartment;
 
 
 import java.io.BufferedReader;
@@ -18,23 +18,23 @@ public class ApartmentsMenu {
                 if (actionInt >= 0 && actionInt <= 4) {
                     switch (input) {
                         case "0":
-                            TableApartmentDAO.createTableApartment(connection);
+                            TableApartment.createTableApartment(connection);
                             selectAction(connection,bfRd);
                             break;
                         case "1":
-                            TableApartmentDAO.addApartment(connection, addApartmentData(bfRd));
+                            TableApartment.addApartment(connection, addApartmentData(bfRd));
                             selectAction(connection,bfRd);
                             break;
                         case "2":
-                            TableApartmentDAO.deleteApartment(connection, deleteApartmentData(bfRd));
+                            TableApartment.deleteApartment(connection, deleteApartmentData(bfRd));
                             selectAction(connection,bfRd);
                             break;
                         case "3":
-                            TableApartmentDAO.selectAllApartments(connection);
+                            TableApartment.selectAllApartments(connection);
                             selectAction(connection,bfRd);
                             break;
                         case "4":
-                            TableApartmentDAO.selectByParameterApartments(connection,showByParameter(bfRd));
+                            TableApartment.selectByParameterApartments(connection,showByParameter(bfRd));
                             selectAction(connection,bfRd);
                             break;
                     }
